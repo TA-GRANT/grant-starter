@@ -1,23 +1,23 @@
 {
   "formal": {
-    "text_a": "Het maken van uw apps",
-    "text_b": "Met deze app nodigen wij u uitt bla die bla",
-    "text_c": "U kunt de vragenlijst starten met de knop VERDER. In het volgende scherm wordt u gevraagd een persoonlijke inlogcode in te voeren. Inmiddels is deze persoonlijke inlogcode per e-mail aan u verstuurd.",
-    "text_d": "Heeft u geen interesse in het invullen van de vragenlijst, dan kunt u de knop NEE gebruiken. U wordt dan automatisch uitgelogd uit de app.",
-    "text_e": "Wilt u tijdens het invullen van de vragenlijst meer informatie? Bel mij gerust. Mijn contactgegevens treft u aan onderaan de e-mails die u zojuist hebt ontvangen.",
-    "text_f": "Met vriendelijke groet,",
-    "text_g": "",
-    "text_h": ""
+    "text_a": "Om de huisstijl zoveel mogelijk te laten aansluiten op de gewenste client experience, hebben wij een voorbeeld app en animatie gemaakt. U krijgt hiermee inzicht in hoe de apps qua 'Look and Feel' vormgegeven worden. ",
+    "text_b": "Wij nodigen u uit om de app en de animatie door te lopen en uw mening te geven over de toepassing van de huisstijl. ",
+    "text_c": "De verschillende elementen worden aan u voorgelegd met de vraag of u akkoord gaat met de gehanteerde huisstijl. U kunt per vraag ook aangeven wat u op een andere manier vormgegeven wilt hebben.",
+    "text_d": "Wilt u hierbij duidelijk aangeven wat u veranderd wilt zien, inclusief eventuele kleurnummers (HEX) of lettertypes? Op basis van uw wijzigingen maken wij dan een nieuw voorbeeld, waarvoor u per e-mail weer een uitnodiging krijgt.",
+    "text_e": "U kunt de vragenlijst starten met de knop VERDER. In het volgende scherm wordt u gevraagd een persoonlijke inlogcode in te voeren. Inmiddels is deze persoonlijke inlogcode per e-mail aan u verstuurd.",
+    "text_f": "Heeft u geen interesse in het invullen van de vragenlijst, dan kunt u de knop NEE gebruiken. U wordt dan automatisch uitgelogd uit de app.",
+    "text_g": "Wilt u tijdens het invullen van de vragenlijst meer informatie? Bel mij gerust. Mijn contactgegevens treft u aan onderaan de e-mails die u zojuist hebt ontvangen.",
+    "text_h": "Met vriendelijke groet,"
   },
   "informal": {
-    "text_a": "Het maken van uw apps",
-    "text_b": "Met deze app nodigen wij jeuitt bla die bla",
-    "text_c": "Je kunt de vragenlijst starten met de knop VERDER. In het volgende scherm wordt je gevraagd een persoonlijke inlogcode in te voeren. Inmiddels is deze persoonlijke inlogcode per e-mail aan je verstuurd.",
-    "text_d": "Heb je geen interesse in het invullen van de vragenlijst, dan kun je de knop NEE gebruiken. Je wordt dan automatisch uitgelogd uit de app.",
-    "text_e": "Wil je tijdens het invullen van de vragenlijst meer informatie? Bel mij gerust. Mijn contactgegevens tref je aan onderaan de e-mails die je zojuist hebt ontvangen.",
-    "text_f": " Met vriendelijke groet,",
-    "text_g": "",
-    "text_h": ""
+    "text_a": "Om de huisstijl zoveel mogelijk te laten aansluiten op de gewenste client experience, hebben wij een voorbeeld app en animatie gemaakt. Je krijgt hiermee inzicht in hoe de apps qua 'Look and Feel' vormgegeven worden.",
+    "text_b": "Wij nodigen je uit om de app en de animatie door te lopen en jouw mening te geven over de toepassing van de huisstijl.",
+    "text_c": "De verschillende elementen worden aan je voorgelegd met de vraag of je akkoord gaat met de gehanteerde huisstijl. Je kunt per vraag ook aangeven wat je op een andere manier vormgegeven wilt hebben.",
+    "text_d": "Wil je hierbij duidelijk aangeven wat je veranderd wilt zien, inclusief eventuele kleurnummers (HEX) of lettertypes? Op basis van jouw wijzigingen maken wij dan een nieuw voorbeeld, waarvoor je per e-mail weer een uitnodiging krijgt.",
+    "text_e": "Je kunt de vragenlijst starten met de knop VERDER. In het volgende scherm wordt je gevraagd een persoonlijke inlogcode in te voeren. Inmiddels is deze persoonlijke inlogcode per e-mail aan je verstuurd.",
+    "text_f": "Heb je geen interesse in het invullen van de vragenlijst, dan kun je de knop NEE gebruiken. Je wordt dan automatisch uitgelogd uit de app. ",
+    "text_g": "Wil je tijdens het invullen van de vragenlijst meer informatie? Bel mij gerust. Mijn contactgegevens tref je aan onderaan de e-mails die je zojuist hebt ontvangen.",
+    "text_h": "Met vriendelijke groet,"
   },
   "vimeo": {
     "intro": "496846414"
