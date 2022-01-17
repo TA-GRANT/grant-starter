@@ -3,7 +3,7 @@
     <div class="mt-5" />
     <h4 class="primary--text">{{ textA }}</h4>
     <v-textarea
-      color="accent"
+      color="textStat"
       v-model="innerValue"
       :error-messages="errors"
       v-bind="$attrs"

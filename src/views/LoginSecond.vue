@@ -5,27 +5,25 @@
       <v-col
         cols="12"
         md="6"
-        class="secondary align-center"
+        class="primary align-center"
         :class="{ 'full-page': $vuetify.breakpoint.mdAndUp }"
       >
         <v-row class="ma-16">
           <v-col cols="2"></v-col>
           <v-col cols="8">
             <v-img
-              :src="
-                require(`@/assets/core/logo_${
-                  $vuetify.theme.dark ? 'light' : 'dark'
-                }.png`)
-              "
+              :src="require(`@/assets/core/just_logo_outline.png`)"
               max-height="1200px"
             />
           </v-col>
         </v-row>
         <v-row class="justify-center">
-          <h3>Welkom bij Trusted Accountant</h3>
+          <h2 class="textWhite--text">Welkom bij Grant Thornton</h2>
         </v-row>
         <v-row class="justify-center mt-10">
-          <h5>Liever een ander kleurschema klik op de knop</h5></v-row
+          <h3 class="textWhite--text">
+            Liever een ander kleurschema klik op de knop
+          </h3></v-row
         >
         <v-row class="justify-center mt-10">
           <div class="text-center">
@@ -39,7 +37,7 @@
       <v-col cols="12" md="6" class="justify-center align-center">
         <div class="ma-5 pa-0">
           <v-row class="mt-15 ml-10">
-            <h3 class="primary--text">Toegangscode</h3>
+            <h3 class="textStat--text">Toegangscode</h3>
           </v-row>
         </div>
         <v-row class="ml-15 mt-15 mr-15">

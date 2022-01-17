@@ -1,9 +1,9 @@
 <template>
   <div class="mt-5">
-    <h4 class="primary--text">
+    <h4 class="textStat--text">
       {{ statement }}
     </h4>
-    <v-icon v-if="comment" color="info" dark @click.stop="showNote = true"
+    <v-icon v-if="comment" color="textStat" dark @click.stop="showNote = true"
       >mdi-chat</v-icon
     >
 

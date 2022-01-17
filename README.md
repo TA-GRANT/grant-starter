@@ -1,4 +1,4 @@
-# quick-scan noodplan
+# starter grant-thornton
 
 ## Project setup
 ```

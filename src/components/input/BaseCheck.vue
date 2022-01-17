@@ -1,6 +1,6 @@
 <template>
   <div>
-    <v-checkbox color="info" :label="label" v-model="innerValue" />
+    <v-checkbox color="textStat" :label="label" v-model="innerValue" />
   </div>
 </template>
 

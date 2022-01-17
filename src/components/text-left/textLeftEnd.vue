@@ -1,29 +1,31 @@
 <template>
   <div>
-    <h3>{{ headText }}</h3>
-    <br />
-    {{ textA }}
-    <br />
-    <br />
-    {{ textB }}
-    <br />
-    <br />
-    {{ textC }}
-    <br />
-    <br />
-    {{ textD }}
-    <br />
-    <br />
-    {{ textE }}
-    <br />
-    <br />
-    {{ firstName }} {{ lastName }}
-    <br />
-    <br />
-    {{ textF }}
-    {{ websiteTeam }}
-    <br />
-    <br />
+    <h3 class="secondary--text">{{ headText }}</h3>
+    <div class="white--text">
+      <br />
+      {{ textA }}
+      <br />
+      <br />
+      {{ textB }}
+      <br />
+      <br />
+      {{ textC }}
+      <br />
+      <br />
+      {{ textD }}
+      <br />
+      <br />
+      {{ textE }}
+      <br />
+      <br />
+      {{ firstName }} {{ lastName }}
+      <br />
+      <br />
+      {{ textF }}
+      {{ websiteTeam }}
+      <br />
+      <br />
+    </div>
   </div>
 </template>
 

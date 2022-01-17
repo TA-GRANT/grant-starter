@@ -60,7 +60,7 @@
                   <div v-if="!formal">
                     <StatementText :statement="textIntro[8].textdInf" />
                   </div>
-                  <ta-slider2 v-model="sl_a" />
+                  <ta-slider3 v-model="sl_a" />
                   <base-radio
                     v-model="question_o"
                     :error-messages="errors"

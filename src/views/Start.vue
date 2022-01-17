@@ -10,11 +10,7 @@
           <v-img
             contain
             class="logoA"
-            :src="
-              require(`@/assets/core/logo_${
-                $vuetify.theme.dark ? 'light' : 'dark'
-              }.png`)
-            "
+            :src="require(`@/assets/core/just_logo.png`)"
             :width="imageHeight"
             alt="logo"
             style="cursor: pointer"
@@ -31,7 +27,11 @@
           <v-img
             contain
             class="logoB"
-            src="img/tekst-wit.png"
+            :src="
+              require(`@/assets/core/just_text_${
+                $vuetify.theme.dark ? 'light2' : 'dark2'
+              }.png`)
+            "
             :width="imageHeight2"
             alt="logo"
           />
@@ -39,12 +39,12 @@
       </div>
     </v-row>
     <v-row justify="center">
-      <div class="verder info--text">
+      <div class="verder primary--text">
         <transition
           enter-active-class="animate__animated animate__fadeInLeft"
           appear
         >
-          <p class="logoC">Klik op het logo om verder te gaan <br /></p>
+          <h2 class="logoC">Klik op het logo om verder te gaan <br /></h2>
         </transition>
       </div>
     </v-row>
@@ -188,10 +188,10 @@ export default {
 
 .logoB {
   animation-duration: 1s;
-  animation-delay: 3s;
+  animation-delay: 2s;
 }
 .logoC {
-  animation-duration: 1s;
+  animation-duration: 2s;
   animation-delay: 3s;
 }
 

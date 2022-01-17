@@ -12,24 +12,25 @@
       step="5"
       thumb-label="always"
       :thumb-color="color"
+      :track-color="color"
     >
       <template v-slot:append>
-        <v-icon color="accent">mdi-plus-circle-outline</v-icon>
+        <v-icon color="secondary">mdi-plus-circle-outline</v-icon>
       </template>
       <template v-slot:prepend>
-        <v-icon color="info">mdi-minus-circle-outline</v-icon>
+        <v-icon color="accent">mdi-minus-circle-outline</v-icon>
       </template>
     </v-slider>
 
     <v-row class="mt-0 mb-2">
       <v-col :cols="4"
-        ><div class="caption info--text text-left">
+        ><div class="caption accent--text text-left">
           Helemaal mee oneens
         </div></v-col
       >
       <v-col :cols="4"></v-col>
       <v-col :cols="4"
-        ><div class="caption accent--text text-right">
+        ><div class="caption secondary--text text-right">
           Helemaal mee eens
         </div></v-col
       >
@@ -58,8 +59,8 @@ export default {
     },
 
     color() {
-      if (this.value < 0) return "info";
-      if (this.value > 0) return "accent";
+      if (this.value < 0) return "accent";
+      if (this.value > 0) return "secondary";
       return "accent";
     },
   },
