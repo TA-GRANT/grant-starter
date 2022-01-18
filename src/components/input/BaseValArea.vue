@@ -1,10 +1,15 @@
 <template>
-  <ValidationProvider :name="$attrs.label" :rules="rules" v-slot="{ errors }">
+  <ValidationProvider
+    :name="$attrs.label"
+    :rules="rules"
+    v-slot="{ errors, valid }"
+  >
     <div class="mt-5" />
     <h4 class="primary--text">{{ textA }}</h4>
     <v-textarea
       color="textStat"
       v-model="innerValue"
+      :success="valid"
       :error-messages="errors"
       v-bind="$attrs"
       v-on="$listeners"

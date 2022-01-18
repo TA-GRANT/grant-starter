@@ -1,7 +1,7 @@
 <template>
   <div>
-    <h3 class="secondary--text">{{ headText }}</h3>
-    <div class="white--text">
+    <h3 class="textHeaderLeftPanel--text">{{ headText }}</h3>
+    <div class="textLeftPanel--text">
       <br />
       {{ textA }}
       <br />

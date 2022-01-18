@@ -10,7 +10,11 @@
           <v-img
             contain
             class="logoA"
-            :src="require(`@/assets/core/just_logo.png`)"
+            :src="
+              require(`@/assets/core/just_logo_${
+                $vuetify.theme.dark ? 'light2' : 'dark2'
+              }.png`)
+            "
             :width="imageHeight"
             alt="logo"
             style="cursor: pointer"

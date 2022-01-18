@@ -1,5 +1,5 @@
 <template>
-  <v-btn color="secondary" small outlined class="mb-5 mr-8" @click="onClick">
+  <v-btn small class="white accent--text mb-5 mr-8" @click="onClick">
     <slot>Terug</slot>
   </v-btn>
 </template>

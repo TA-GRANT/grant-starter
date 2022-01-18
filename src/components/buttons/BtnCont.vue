@@ -1,8 +1,7 @@
 <template>
   <v-btn
-    color="primary"
     small
-    class="mb-5 mr-8"
+    class="accent white--text mb-5 mr-8"
     @click="onClick"
     :disabled="disabled"
   >

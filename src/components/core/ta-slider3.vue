@@ -47,7 +47,7 @@ export default {
     color() {
       if (this.value < 5) return "accent";
       if (this.value > 5) return "secondary";
-      return "accent";
+      return "#cbc4bc";
     },
   },
 };

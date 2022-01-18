@@ -5,23 +5,27 @@
       <v-col
         cols="12"
         md="6"
-        class="primary align-center"
+        class="leftPanel align-center"
         :class="{ 'full-page': $vuetify.breakpoint.mdAndUp }"
       >
         <v-row class="ma-16">
           <v-col cols="2"></v-col>
           <v-col cols="8">
             <v-img
-              :src="require(`@/assets/core/just_logo_outline.png`)"
+              :src="
+                require(`@/assets/core/just_logo_${
+                  $vuetify.theme.dark ? 'light3' : 'dark3'
+                }.png`)
+              "
               max-height="1200px"
             />
           </v-col>
         </v-row>
         <v-row class="justify-center">
-          <h2 class="textWhite--text">Welkom bij Grant Thornton</h2>
+          <h2 class="textHeaderLeftPanel--text">Welkom bij Grant Thornton</h2>
         </v-row>
         <v-row class="justify-center mt-10">
-          <h3 class="textWhite--text">
+          <h3 class="textHeaderLeftPanel--text">
             Liever een ander kleurschema klik op de knop
           </h3></v-row
         >
@@ -68,12 +72,15 @@
         <v-row justify="end" class="mr-8">
           <v-btn
             elevation="15"
-            class="primary mt-15 mr-15"
+            class="accent white--text mt-15 mr-15"
             v-if="errorBtn"
             @click="newCode"
             >Nieuwe Code</v-btn
           >
-          <v-btn elevation="15" class="primary mt-15 ml-16 mr-16" @click="login"
+          <v-btn
+            elevation="15"
+            class="accent white--text mt-15 ml-16 mr-16"
+            @click="login"
             >Verder</v-btn
           >
         </v-row>
@@ -168,9 +175,4 @@ export default {
 };
 </script>
 
-<style scoped>
-.v-card__text,
-.v-card__title {
-  word-break: normal !important; /* maybe !important  */
-}
-</style>
+<style scoped></style>
